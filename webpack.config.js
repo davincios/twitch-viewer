@@ -23,7 +23,7 @@ module.exports = {
         loader: 'babel-loader',
         query: {
           presets: ['env', 'react'],
-          plugins: ['transform-object-rest-spread', 'react-css-modules']
+          plugins: ['react-css-modules']
         }
       },
       {
