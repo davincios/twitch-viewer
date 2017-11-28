@@ -1,0 +1,31 @@
+.form { text-align: center; }
+
+.search {
+  font: normal 16px Helvetica, Arial, sans-serif;
+  width: 300px;
+  padding: 10px;
+  margin-right: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search:focus {
+  outline: none;
+  border: 1px solid #4d90fe;
+  box-shadow: 0 0 10px 1px #4d90fe;
+}
+
+.submit {
+  background: #aaa;
+  padding: 11px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit:hover { background: #ddd; }
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
